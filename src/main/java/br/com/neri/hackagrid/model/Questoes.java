@@ -5,10 +5,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Question {
+public class Questoes {
 
     @Id
-    @JsonIgnore
     private String id;
 
     private String raca;

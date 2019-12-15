@@ -1,4 +1,4 @@
-package br.com.neri.hackagrid.integration.sample;
+package br.com.neri.hackagrid.integration;
 
 import java.util.Arrays;
 

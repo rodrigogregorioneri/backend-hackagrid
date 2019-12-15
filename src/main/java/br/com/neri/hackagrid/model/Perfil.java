@@ -6,10 +6,9 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Profile {
+public class Perfil {
 
     @Id
-    @JsonIgnore
     private String id;
 
     private String nomePerfil;
@@ -18,7 +17,35 @@ public class Profile {
 
     private String descricaoPerfil;
 
+    public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
 
+    public String getNomePerfil() {
+        return nomePerfil;
+    }
 
+    public void setNomePerfil(String nomePerfil) {
+        this.nomePerfil = nomePerfil;
+    }
+
+    public int getValorPerfil() {
+        return valorPerfil;
+    }
+
+    public void setValorPerfil(int valorPerfil) {
+        this.valorPerfil = valorPerfil;
+    }
+
+    public String getDescricaoPerfil() {
+        return descricaoPerfil;
+    }
+
+    public void setDescricaoPerfil(String descricaoPerfil) {
+        this.descricaoPerfil = descricaoPerfil;
+    }
 }

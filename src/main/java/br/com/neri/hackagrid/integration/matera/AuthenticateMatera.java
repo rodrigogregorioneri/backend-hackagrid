@@ -1,4 +1,4 @@
-package br.com.neri.hackagrid.integration.sample.matera;
+package br.com.neri.hackagrid.integration.matera;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
