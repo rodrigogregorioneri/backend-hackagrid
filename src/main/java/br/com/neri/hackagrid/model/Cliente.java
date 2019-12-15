@@ -17,6 +17,16 @@ public class Cliente {
 
     private String idProdutoCliente;
 
+    private String accountId;
+
+    public String getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
+    }
+
     public String getId() {
         return id;
     }

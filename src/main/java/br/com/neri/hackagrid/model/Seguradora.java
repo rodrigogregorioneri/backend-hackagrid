@@ -15,6 +15,16 @@ public class Seguradora {
 
     private List<Produtos> listaProdutos;
 
+    private String accountId;
+
+    public String getAccountId() {
+        return accountId;
+    }
+
+    public void setAccountId(String accountId) {
+        this.accountId = accountId;
+    }
+
     public String getId() {
         return id;
     }
